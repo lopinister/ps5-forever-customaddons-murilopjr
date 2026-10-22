@@ -14,9 +14,9 @@
       "id": "spoken",
       "name": "Spoken",
       "author": "rusty-key",
-      "version": "0.0.0",
+      "version": "spoken/v3.5.1",
       "description": "Addon base para áudio de missões.",
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.5.1/Spoken-3.5.1.zip",
       "size": "Unknown"
     },
     {
