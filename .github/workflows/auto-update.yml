@@ -1,0 +1,24 @@
+name: Atualizar Catálogo de Addons
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Roda todos os dias às 08:00 UTC
+  workflow_dispatch: # Permite rodar manualmente clicando em um botão
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Rodar script PowerShell
+        shell: pwsh
+        run: ./update_addons.ps1
+
+      - name: Commit e Push das alterações
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add addons.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Atualiza versões dos addons" && git push)
