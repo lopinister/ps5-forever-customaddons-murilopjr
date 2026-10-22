@@ -1,0 +1,14 @@
+{
+  "catalogVersion": "1.0",
+  "addons": [
+    {
+      "id": "exemplo-addon-github",
+      "name": "Addon Exemplo",
+      "author": "Autor Original",
+      "version": "1.0.0",
+      "description": "Exemplo de addon sendo monitorado.",
+      "downloadUrl": "URL_AQUI",
+      "size": "Unknown"
+    }
+  ]
+}
