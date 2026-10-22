@@ -23,18 +23,18 @@
       "id": "spoken-ptbr",
       "name": "Spoken Quests Audio (Portuguese)",
       "author": "rusty-key",
-      "version": "0.0.0",
+      "version": "books-audio-ptBR/v2.0.0",
       "description": "Pacote de áudio em pt-BR.",
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/books-audio-ptBR/v2.0.0/SpokenBooksAudio_ptBR-2.0.0.zip",
       "size": "Unknown"
     },
     {
       "id": "spoken-en",
       "name": "Spoken Quests Audio (English)",
       "author": "rusty-key",
-      "version": "0.0.0",
+      "version": "zones-audio-esMX/v1.0.2",
       "description": "Pacote de áudio em inglês.",
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/zones-audio-esMX/v1.0.2/SpokenZonesAudio_esMX-1.0.2.zip",
       "size": "Unknown"
     }
   ]
