@@ -27,6 +27,15 @@
       "description": "Pacote de áudio em pt-BR.",
       "downloadUrl": "",
       "size": "Unknown"
+    },
+    {
+      "id": "spoken-en",
+      "name": "Spoken Quests Audio (English)",
+      "author": "rusty-key",
+      "version": "0.0.0",
+      "description": "Pacote de áudio em inglês.",
+      "downloadUrl": "",
+      "size": "Unknown"
     }
   ]
 }
