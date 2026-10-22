@@ -9,25 +9,31 @@ $addonConfigs = @(
 )
 
 foreach ($config in $addonConfigs) {
-    $apiUrl = "https://api.github.com/repos/$($config.repo)/releases/latest"
-    $response = Invoke-RestMethod -Uri $apiUrl -ErrorAction SilentlyContinue
+    # Altera a consulta para procurar em todas as publicações recentes em vez de apenas na última
+    $apiUrl = "https://api.github.com/repos/$($config.repo)/releases"
+    $releases = Invoke-RestMethod -Uri $apiUrl -ErrorAction SilentlyContinue
 
-    if ($response) {
-        $latestVersion = $response.tag_name
-        
-        $asset = $response.assets | Where-Object { 
-            $_.name -like $config.match -and ($config.exclude -eq "" -or $_.name -notmatch $config.exclude) 
-        } | Select-Object -First 1
-
-        if ($asset) {
-            $downloadUrl = $asset.browser_download_url
+    if ($releases) {
+        $assetFound = $false
+        foreach ($release in $releases) {
+            if ($assetFound) { break }
             
-            foreach ($addon in $addonsData.addons) {
-                if ($addon.id -eq $config.id -and $addon.version -ne $latestVersion) {
-                    $addon.version = $latestVersion
-                    $addon.downloadUrl = $downloadUrl
-                    Write-Host "Atualizando $($addon.name) para a versão $latestVersion"
+            $latestVersion = $release.tag_name
+            $asset = $release.assets | Where-Object { 
+                $_.name -like $config.match -and ($config.exclude -eq "" -or $_.name -notmatch $config.exclude) 
+            } | Select-Object -First 1
+
+            if ($asset) {
+                $downloadUrl = $asset.browser_download_url
+                
+                foreach ($addon in $addonsData.addons) {
+                    if ($addon.id -eq $config.id -and $addon.version -ne $latestVersion) {
+                        $addon.version = $latestVersion
+                        $addon.downloadUrl = $downloadUrl
+                        Write-Host "Atualizando $($addon.name) para a versão $latestVersion"
+                    }
                 }
+                $assetFound = $true
             }
         }
     }
