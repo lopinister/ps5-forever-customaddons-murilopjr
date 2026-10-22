@@ -5,9 +5,9 @@
       "id": "polestar",
       "name": "Polestar",
       "author": "fitzforge",
-      "version": "0.0.0",
+      "version": "v0.2.6",
       "description": "Interface customizada Polestar.",
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/fitzforge/polestar/releases/download/v0.2.6/Polestar-0.2.6.zip",
       "size": "Unknown"
     },
     {
