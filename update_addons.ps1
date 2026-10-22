@@ -6,7 +6,8 @@ $addonConfigs = @(
     @{ id = "spoken"; repo = "rusty-key/spoken-wow"; match = "*.zip"; exclude = "audio" },
     # Filtros ajustados para garantir a captura correta
     @{ id = "spoken-ptbr"; repo = "rusty-key/spoken-wow"; match = "*ptBR*.zip"; exclude = "" },
-    @{ id = "spoken-en"; repo = "rusty-key/spoken-wow"; match = "*en*.zip"; exclude = "ptBR" }
+    @{ id = "spoken-en"; repo = "rusty-key/spoken-wow"; match = "*en*.zip"; exclude = "ptBR" },
+    @{ id = "lore-forever"; repo = "mliudev/LoreForever"; match = "*.zip"; exclude = "" }
 )
 
 foreach ($config in $addonConfigs) {
