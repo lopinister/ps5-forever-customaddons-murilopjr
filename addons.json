@@ -2,12 +2,30 @@
   "catalogVersion": "1.0",
   "addons": [
     {
-      "id": "exemplo-addon-github",
-      "name": "Addon Exemplo",
-      "author": "Autor Original",
-      "version": "1.0.0",
-      "description": "Exemplo de addon sendo monitorado.",
-      "downloadUrl": "URL_AQUI",
+      "id": "polestar",
+      "name": "Polestar",
+      "author": "fitzforge",
+      "version": "0.0.0",
+      "description": "Interface customizada Polestar.",
+      "downloadUrl": "",
+      "size": "Unknown"
+    },
+    {
+      "id": "spoken",
+      "name": "Spoken",
+      "author": "rusty-key",
+      "version": "0.0.0",
+      "description": "Addon base para áudio de missões.",
+      "downloadUrl": "",
+      "size": "Unknown"
+    },
+    {
+      "id": "spoken-ptbr",
+      "name": "Spoken Quests Audio (Portuguese)",
+      "author": "rusty-key",
+      "version": "0.0.0",
+      "description": "Pacote de áudio em pt-BR.",
+      "downloadUrl": "",
       "size": "Unknown"
     }
   ]
