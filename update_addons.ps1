@@ -4,13 +4,14 @@ $addonsData = Get-Content $jsonPath -Raw | ConvertFrom-Json
 $addonConfigs = @(
     @{ id = "polestar"; repo = "fitzforge/polestar"; match = "*.zip"; exclude = "" },
     @{ id = "spoken"; repo = "rusty-key/spoken-wow"; match = "*.zip"; exclude = "audio" },
+    # Filtros ajustados para garantir a captura correta
     @{ id = "spoken-ptbr"; repo = "rusty-key/spoken-wow"; match = "*ptBR*.zip"; exclude = "" },
-    @{ id = "spoken-en"; repo = "rusty-key/spoken-wow"; match = "*audio-en*.zip"; exclude = "" }
+    @{ id = "spoken-en"; repo = "rusty-key/spoken-wow"; match = "*en*.zip"; exclude = "ptBR" }
 )
 
 foreach ($config in $addonConfigs) {
-    # Altera a consulta para procurar em todas as publicações recentes em vez de apenas na última
-    $apiUrl = "https://api.github.com/repos/$($config.repo)/releases"
+    # Parâmetro ?per_page=100 adicionado para consultar o histórico profundo de publicações
+    $apiUrl = "https://api.github.com/repos/$($config.repo)/releases?per_page=100"
     $releases = Invoke-RestMethod -Uri $apiUrl -ErrorAction SilentlyContinue
 
     if ($releases) {
