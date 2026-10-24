@@ -14,9 +14,9 @@
       "id": "spoken",
       "name": "Spoken",
       "author": "rusty-key",
-      "version": "spoken/v3.5.1",
+      "version": "spoken/v3.6.0-alpha.1",
       "description": "Addon base para áudio de missões.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.5.1/Spoken-3.5.1.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.6.0-alpha.1/Spoken-3.6.0-alpha.1.zip",
       "size": "Unknown"
     },
     {
@@ -32,18 +32,18 @@
       "id": "spoken-en",
       "name": "Spoken Quests Audio (English)",
       "author": "rusty-key",
-      "version": "zones-audio-esMX/v1.0.2",
+      "version": "spoken/v3.6.0-alpha.1",
       "description": "Pacote de áudio em inglês.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/zones-audio-esMX/v1.0.2/SpokenZonesAudio_esMX-1.0.2.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.6.0-alpha.1/Spoken-3.6.0-alpha.1.zip",
       "size": "Unknown"
     },
     {
       "id": "lore-forever",
       "name": "Lore Forever",
       "author": "mliudev",
-      "version": "v0.26.0",
+      "version": "v0.27.0",
       "description": "Immersive Addon for Lore content",
-      "downloadUrl": "https://github.com/mliudev/LoreForever/releases/download/v0.26.0/LoreForever.zip",
+      "downloadUrl": "https://github.com/mliudev/LoreForever/releases/download/v0.27.0/LoreForever.zip",
       "size": "Unknown"
     }
   ]
