@@ -14,9 +14,9 @@
       "id": "spoken",
       "name": "Spoken",
       "author": "rusty-key",
-      "version": "spoken/v3.6.0",
+      "version": "manager/v0.1.3",
       "description": "Addon base para áudio de missões.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.6.0/Spoken-3.6.0.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.3/Spoken-Manager-0.1.3-mac-arm64.zip",
       "size": "Unknown"
     },
     {
@@ -32,9 +32,9 @@
       "id": "spoken-en",
       "name": "Spoken Quests Audio (English)",
       "author": "rusty-key",
-      "version": "spoken/v3.6.0",
+      "version": "manager/v0.1.3",
       "description": "Pacote de áudio em inglês.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.6.0/Spoken-3.6.0.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.3/Spoken-Manager-0.1.3-mac-arm64.zip",
       "size": "Unknown"
     },
     {
