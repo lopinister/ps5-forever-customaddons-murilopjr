@@ -5,18 +5,18 @@
       "id": "polestar",
       "name": "Polestar",
       "author": "fitzforge",
-      "version": "lib-v1.2026.10.1",
+      "version": "v0.3.0",
       "description": "Interface customizada Polestar.",
-      "downloadUrl": "https://github.com/fitzforge/polestar/releases/download/lib-v1.2026.10.1/LibForeverData-1.2026.10.1.zip",
+      "downloadUrl": "https://github.com/fitzforge/polestar/releases/download/v0.3.0/Polestar-0.3.0.zip",
       "size": "Unknown"
     },
     {
       "id": "spoken",
       "name": "Spoken",
       "author": "rusty-key",
-      "version": "manager/v0.1.5",
+      "version": "manager/v0.1.9",
       "description": "Addon base para áudio de missões.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.5/Spoken-Manager-0.1.5-mac-arm64.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.9/Spoken-Manager-0.1.9-mac-arm64.zip",
       "size": "Unknown"
     },
     {
@@ -32,18 +32,18 @@
       "id": "spoken-en",
       "name": "Spoken Quests Audio (English)",
       "author": "rusty-key",
-      "version": "manager/v0.1.5",
+      "version": "manager/v0.1.9",
       "description": "Pacote de áudio em inglês.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.5/Spoken-Manager-0.1.5-mac-arm64.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.9/Spoken-Manager-0.1.9-mac-arm64.zip",
       "size": "Unknown"
     },
     {
       "id": "lore-forever",
       "name": "Lore Forever",
       "author": "mliudev",
-      "version": "v0.35.0",
+      "version": "v0.36.0",
       "description": "Immersive Addon for Lore content",
-      "downloadUrl": "https://github.com/mliudev/LoreForever/releases/download/v0.35.0/LoreForever.zip",
+      "downloadUrl": "https://github.com/mliudev/LoreForever/releases/download/v0.36.0/LoreForever.zip",
       "size": "Unknown"
     }
   ]
