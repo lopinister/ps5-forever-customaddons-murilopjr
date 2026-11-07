@@ -5,9 +5,9 @@
       "id": "polestar",
       "name": "Polestar",
       "author": "fitzforge",
-      "version": "v0.3.2",
+      "version": "v0.3.4",
       "description": "Interface customizada Polestar.",
-      "downloadUrl": "https://github.com/fitzforge/polestar/releases/download/v0.3.2/Polestar-0.3.2.zip",
+      "downloadUrl": "https://github.com/fitzforge/polestar/releases/download/v0.3.4/Polestar-0.3.4.zip",
       "size": "Unknown"
     },
     {
@@ -41,9 +41,9 @@
       "id": "lore-forever",
       "name": "Lore Forever",
       "author": "mliudev",
-      "version": "v1.1.0",
+      "version": "v1.2.0",
       "description": "Immersive Addon for Lore content",
-      "downloadUrl": "https://github.com/mliudev/LoreForever/releases/download/v1.1.0/LoreForever.zip",
+      "downloadUrl": "https://github.com/mliudev/LoreForever/releases/download/v1.2.0/LoreForever.zip",
       "size": "Unknown"
     }
   ]
