@@ -14,9 +14,9 @@
       "id": "spoken",
       "name": "Spoken",
       "author": "rusty-key",
-      "version": "manager/v0.1.13",
+      "version": "manager/v0.1.14",
       "description": "Addon base para áudio de missões.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.13/Spoken-Manager-0.1.13-mac-arm64.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.14/Spoken-Manager-0.1.14-mac-arm64.zip",
       "size": "Unknown"
     },
     {
@@ -32,18 +32,18 @@
       "id": "spoken-en",
       "name": "Spoken Quests Audio (English)",
       "author": "rusty-key",
-      "version": "manager/v0.1.13",
+      "version": "manager/v0.1.14",
       "description": "Pacote de áudio em inglês.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.13/Spoken-Manager-0.1.13-mac-arm64.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/manager/v0.1.14/Spoken-Manager-0.1.14-mac-arm64.zip",
       "size": "Unknown"
     },
     {
       "id": "lore-forever",
       "name": "Lore Forever",
       "author": "mliudev",
-      "version": "v1.7.0",
+      "version": "v1.8.0",
       "description": "Immersive Addon for Lore content",
-      "downloadUrl": "https://github.com/mliudev/LoreForever/releases/download/v1.7.0/LoreForever.zip",
+      "downloadUrl": "https://github.com/mliudev/LoreForever/releases/download/v1.8.0/LoreForever.zip",
       "size": "Unknown"
     }
   ]
