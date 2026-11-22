@@ -5,18 +5,18 @@
       "id": "polestar",
       "name": "Polestar",
       "author": "fitzforge",
-      "version": "v0.4.2",
+      "version": "v0.4.2.2",
       "description": "Interface customizada Polestar.",
-      "downloadUrl": "https://github.com/fitzforge/polestar/releases/download/v0.4.2/Polestar_Recorder-0.4.2.zip",
+      "downloadUrl": "https://github.com/fitzforge/polestar/releases/download/v0.4.2.2/Polestar-0.4.2.2.zip",
       "size": "Unknown"
     },
     {
       "id": "spoken",
       "name": "Spoken",
       "author": "rusty-key",
-      "version": "spoken/v3.10.1",
+      "version": "spoken/v3.11.0",
       "description": "Addon base para áudio de missões.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.10.1/Spoken-3.10.1.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.11.0/Spoken-3.11.0.zip",
       "size": "Unknown"
     },
     {
@@ -32,9 +32,9 @@
       "id": "spoken-en",
       "name": "Spoken Quests Audio (English)",
       "author": "rusty-key",
-      "version": "spoken/v3.10.1",
+      "version": "spoken/v3.11.0",
       "description": "Pacote de áudio em inglês.",
-      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.10.1/Spoken-3.10.1.zip",
+      "downloadUrl": "https://github.com/rusty-key/spoken-wow/releases/download/spoken/v3.11.0/Spoken-3.11.0.zip",
       "size": "Unknown"
     },
     {
